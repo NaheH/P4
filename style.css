@@ -709,7 +709,7 @@ p {
 }
 
 .cta-hero {
-    background-color: #444;
+    background-color: black;
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
@@ -742,7 +742,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #FFF!important;
 }
 
 h4 {
@@ -832,8 +832,8 @@ h4 {
 }
 
 .bg-tangerine {
-    background-color: #F3976C;
-    padding-top: 3rem;
+   background-color: rgba(0, 0, 0, 0.4)!important;
+     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
@@ -923,9 +923,7 @@ h4 {
 
 @media (max-width: 767px) {
     
-    container bloc-lg{
-        background-color: #F3976C;
-    }
+    
     .page-container {
         overflow-x: hidden;
         position: relative;
