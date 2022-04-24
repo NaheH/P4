@@ -719,9 +719,13 @@ p {
     font-weight: 700;
 }
 
-.social {
+.container-social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 h2 {
@@ -1048,6 +1052,7 @@ h4 {
     }
     form {
         padding: 5px;
+    
     }
     .close-lightbox {
         display: inline-block;
@@ -1107,17 +1112,22 @@ border-radius: 40px;
    flex-direction: column ;
     align-items : center;
 justify-content : center;
-
+margin: auto;
 
 }
-
-aside
+.container-contact 
 {
-    width: 30%;
-  padding-left: auto;
-  float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    
 }
-
+.container-form
+{
+    margin: auto;
+}
 #auteur
 {
     color:#000;
