@@ -792,9 +792,6 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-tangerine {
-    background-color: #F3976C;
-}
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -1122,11 +1119,13 @@ margin: auto;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
-    
+    margin: auto;
+    max-width: 1200px;
 }
 .container-form
 {
     margin: auto;
+    max-width: 45%;
 }
 #auteur
 {
