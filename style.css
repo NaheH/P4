@@ -794,8 +794,7 @@ h4 {
 
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
+    background-color: rgb(243, 151, 108);}
 
 
 .btn-atomic-tangerine {
@@ -1056,7 +1055,7 @@ h4 {
     }
 
     .black-background{
-        background-color: #F3976C;
+        background-color: rgba(0,0, 0, 0.4);
     }
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
@@ -1108,8 +1107,8 @@ border-radius: 40px;
     display: flex; 
    flex-direction: column ;
     align-items : center;
-justify-content : center;
-margin: auto;
+    justify-content : center;
+    margin: auto;
 
 }
 .container-contact 
@@ -1125,9 +1124,25 @@ margin: auto;
 .container-form
 {
     margin: auto;
-    max-width: 45%;
+    max-width: 45%; 
+    
+}
+@media (max-width:700px){
+ .container-form
+ {     
+    max-width: 100%; 
+}
+
 }
 #auteur
 {
     color:#000;
+}
+.btn-hover { 
+    transition: 0.2s ease;
+}
+
+.btn-hover:hover 
+{
+    background-color:rgb(243,151,108);
 }
