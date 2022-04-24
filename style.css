@@ -430,11 +430,8 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    
     color: #FFF;
-    background: red;
-    width: 30px;
-    height: 40px;
+    background: rgba(0, 0, 0, .3);
 }
 
 button {
@@ -485,10 +482,10 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    resize: none;
 }
 
 .scrollToTop {
-    color:red;
     width: 40px;
     height: 40px;
     position: fixed;
