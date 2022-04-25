@@ -1072,6 +1072,7 @@ padding: 12px 28px 12px 28px;
 font-size: 16px;
 font-weight: 700;
 border-radius: 40px;
+font-size: large;
 }
 
 .contact
@@ -1117,4 +1118,10 @@ border-radius: 40px;
 .btn-hover:hover 
 {
     background-color:rgb(243,151,108);
+}
+#button
+{
+    font-size: 2rem;
+    line-height: 1.4em;
+    text-align: center;
 }
